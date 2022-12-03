@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+}
+html{
+    background-color: #99c5dc;
+}
+.tap {
+    background-color: #43f733;
+    min-height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+
+}
+
+/*.words{*/
+/*    color: white;*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*    justify-content: end;*/
+/*}*/
+.a{
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+h2{
+    margin: 8px;
+}
+img{
+    float: left;
+    display: flex;
+    justify-content: start;
+    width: 60px;
+    height: 50px;
+}
+
+.container{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjfKhMqZiGJJMYYBtsSLqayOjrid4uxZluVg&usqp=CAU);
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+color: #2c1c02;
+}
+.wrapper{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+align-items: flex-start;
+
+}
+.text{
+    min-height: 230px;
+    width: 350px;
+    background-color:#ec270d;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 15px;
+}
+.end{
+    background: rgb(27, 207, 11);
+    height: 50px;
+    display: flex;
+    justify-content:start;
+    align-items: center;
+}
+
+.about,.food{
+    color: #653c04;
+    background-color: #22939b;
+    min-height: 175px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    margin: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.18);
+}
+
+.pics{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnyH26AcWHKE3Ga4DQB2_Sv_3HMRXAUVxdNmYlnI5f5iKlJ790hpU2mDHBI4UotBiqM3I&usqp=CAU);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pics2{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3ZoImo-YQ3QQcTxSYrljgWPMNoh_M7VaAhg&usqp=CAU);
+    background-size: cover;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.product{
+    color: #653c04;
+    background-color: #1d7996;
+    min-height: 175px;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 15px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.18);
+}
+
+h1.product{
+    color: #653c04;
+}
+img.product{
+    width: 300px;
+    height: 200px;
+}
